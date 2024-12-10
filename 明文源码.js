@@ -2,7 +2,7 @@
 import { connect } from 'cloudflare:sockets';
 
 let userID = '';
-let proxyIP = '';
+let proxyIP = '172.64.232.168,172.64.146.227,172.64.153.173';
 let sub = '';
 let subConverter = 'SUBAPI.fxxk.dedyn.io';
 let subConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini";
@@ -19,6 +19,8 @@ const expire = 4102329600;//2099-12-31
 let proxyIPs;
 let socks5s;
 let go2Socks5s = [
+	'zone:041000.zo@zqryzone.serv00.net:61503',
+	'TG:CMLiussss@socks5.serv00.090227.xyz:35555',
 	'*ttvnw.net',
 	'*tapecontent.net',
 	'*cloudatacdn.com',
